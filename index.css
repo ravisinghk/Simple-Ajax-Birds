@@ -1,0 +1,106 @@
+
+
+body{
+    /* background-image: url("https://cdn.pixabay.com/photo/2016/02/19/11/33/trees-1209774__340.jpg"); */
+    background: linear-gradient(to right, #34e89e , #0f3443);;
+    /* width: 100px;
+    background-size: 100%; */
+    
+}
+
+
+.bigContainer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 95%;
+    width: 60%;
+    margin: 0; 
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    /* border: 1px solid black; */
+    background: none;
+    /* z-index: 1; */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.images{
+    width: 47%;
+    height: 97%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imag{
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 30%;
+}
+
+.cat{
+    height: 100%;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cat:hover{
+    transform: Scale(103%);
+}
+
+
+
+
+
+#desc{
+    width: 47%;
+    height: 97%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.head{
+
+    background-color: #0f3443;
+    width: 80%;
+    height: 10%;
+}
+
+.pic{
+    width: 80%;
+    height: 30%;
+
+}
+
+
+.description{
+    width: 80%;
+    height: 80%;
+    font-family: 'Truculenta', sans-serif;
+    padding: 3%;
+    font-size: larger;
+    background-color: #43a77d;
+    color: white;
+    
+}
+
+.head{
+    padding-bottom: 4%;
+    color: white;
+    text-transform: capitalize;
+}
+
+h1{
+    font-family: 'Truculenta', sans-serif;
+    text-align: center;
+   
+}
